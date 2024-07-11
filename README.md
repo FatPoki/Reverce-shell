@@ -25,9 +25,8 @@ Ensure you have a C++ compiler installed (like g++, clang, or MSVC). For example
 ```bash
 
 sudo apt-get install g++
-Compile the Code:
 
-```bash
+Compile the Code:
 
 g++ -o reverse_shell reverse_shell.cpp
 ```
