@@ -5,7 +5,7 @@ Welcome to the repository for my Reverse Shell project written in C++. This proj
 ## What is a Reverse Shell?
 
 A reverse shell is a type of shell where the target machine connects back to the attacker's machine. This can be useful in scenarios where the target machine is behind a firewall or NAT and cannot accept incoming connections. Instead, it initiates an outgoing connection to the attacker's machine, allowing the attacker to gain control.
-
+ 
 ## Features
 
 - **Lightweight and Efficient**: The reverse shell is designed to be lightweight and efficient, ensuring minimal resource usage on the target machine.
