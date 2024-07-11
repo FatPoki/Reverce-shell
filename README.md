@@ -15,9 +15,10 @@ A reverse shell is a type of shell where the target machine connects back to the
 ## How to Build
 
 1. **Clone the Repository**:
-   ```bash
+    ```bash
    git clone https://github.com/yourusername/reverse-shell-cpp.git
    cd reverse-shell-cpp
+    ```
 Install Dependencies:
 Ensure you have a C++ compiler installed (like g++, clang, or MSVC). For example, on Ubuntu, you can install g++ with:
 
